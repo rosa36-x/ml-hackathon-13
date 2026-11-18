@@ -1,0 +1,16 @@
+{
+    "source_crs": "EPSG:4326",
+    "projection_method": "per_trip_utm",
+    "zone_selection": "calculated from each trip geographic centre",
+    "hemisphere_selection": "based on trip centre latitude",
+    "training_trips_used_for_validation": 80,
+    "validation": {
+        "method": "UTM Euclidean distance vs haversine distance",
+        "mean_absolute_error_m": 0.02749416581990561,
+        "max_absolute_error_m": 1.2289905665613787,
+        "mean_relative_error_pct": 0.17256786843393757,
+        "max_mean_relative_error_pct": 0.3260366718898543
+    },
+    "details_file": "projections_by_trip.csv",
+    "distance_validation_file": "projection_distance_check.csv"
+}

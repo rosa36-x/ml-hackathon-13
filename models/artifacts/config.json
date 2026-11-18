@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "candidate_radius_m": 50,
+  "sample_spacing_m": 10,
+  "scaler": "StandardScaler fitted on train only",
+  "target": "is_ref",
+  "excluded_inputs": [
+    "ref_arc",
+    "is_ref",
+    "route"
+  ],
+  "features": [
+    "perp_distance_m",
+    "projection_fraction",
+    "arc_length_m",
+    "heading_difference_deg",
+    "candidate_rank",
+    "candidate_count",
+    "distance_gap_m"
+  ]
+}

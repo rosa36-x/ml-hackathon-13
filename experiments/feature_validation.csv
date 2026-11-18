@@ -1,0 +1,3 @@
+split,rows,unique_trips,missing_features,infinite_features,duplicate_obs_arc_pairs,label_values,ground_truth_columns_in_features
+train,1867152,80,0,0,0,"[False, True]",[]
+student_test,209121,10,0,0,0,"[False, True]",[]

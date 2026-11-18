@@ -1,0 +1,6 @@
+{
+  "selected_radius_m": 50,
+  "target_miss_rate_pct": 2,
+  "selection_method": "smallest radius with route-set coverage miss rate <= 2%",
+  "sample_spacing_m": 10
+}

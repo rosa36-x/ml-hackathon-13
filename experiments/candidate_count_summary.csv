@@ -1,0 +1,3 @@
+split,count,mean,median,min,max
+student_test,19160,10.914457202505218,8.0,1,123
+train,190187,9.817453348546431,6.0,1,148

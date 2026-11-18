@@ -1,0 +1,20 @@
+{
+  "train_trips": 80,
+  "student_test_trips": 10,
+  "observations": 227577,
+  "candidate_rows": 2076273,
+  "feature_rows": 2076273,
+  "feature_columns": [
+    "perp_distance_m",
+    "projection_fraction",
+    "arc_length_m",
+    "heading_difference_deg",
+    "candidate_rank",
+    "candidate_count",
+    "distance_gap_m"
+  ],
+  "selected_radius_m": 50,
+  "train_label_coverage_pct": 89.17,
+  "student_test_label_coverage_pct": 99.86,
+  "seed": 42
+}
